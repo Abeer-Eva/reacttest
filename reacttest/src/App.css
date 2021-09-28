@@ -1,0 +1,23 @@
+.app {
+	padding: 1.5em;  /* 1,5 gånger aktuella teckenstorleken */
+}
+.app.light {
+	background-color: #E4F9E2;
+	color: #2A2C2A;
+}
+.app.dark {
+	background-color: #2A2C2A;
+	color: #E4F9E2;
+}
+
+button {
+	padding: 0.5em 2em;
+	background-color: #A8E4A2;
+	color: #1E7016;
+	border: 1px solid black;
+	cursor: pointer;
+	transition: 0.4s all;
+}
+button.selected, button:hover {
+	background-color: #87D180;
+}
